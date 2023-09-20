@@ -1,0 +1,8 @@
+frase = input('Insira uma frase: ').lower().strip()
+frase = frase.replace('á', 'a')
+frase = frase.replace('à', 'a')
+frase = frase.replace('â', 'a')
+frase = frase.replace('ã', 'a')
+print(f'A letra A aparece {frase.count("a")} vezes na frase.')
+print(f'A letra A aparece pela primeira vez na posição {frase.find("a")}.')
+print(f'A letra A aparece pela última vez na posição {frase.rfind("a")}.')
